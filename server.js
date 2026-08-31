@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 const express = require("express")
 
 let app = express()
@@ -53,6 +54,8 @@ app.delete("/delete/:id",(req,res)=>{
     res.send(userData)
 
 =======
+=======
+>>>>>>> afe662c1e57fb5eb2dfbaacb5c69c5092139f34b
 let http = require("http")
 
 let server = http.createServer((req,res)=>{
@@ -63,5 +66,8 @@ let server = http.createServer((req,res)=>{
 
 server.listen(3000,()=>{
     console.log("Server is running")
+<<<<<<< HEAD
 >>>>>>> 611bf7093c0e3207b2493214dd1f4280c4531fa8
+=======
+>>>>>>> afe662c1e57fb5eb2dfbaacb5c69c5092139f34b
 })
