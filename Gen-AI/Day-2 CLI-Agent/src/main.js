@@ -1,5 +1,5 @@
 import { getSettingsFile, saveApiKey } from "./Utils/file.utils.js";
-import rl from "./Utils/readline.js";
+import rl from "./Utils/readline.js"
 async function main(){
     const settings = await getSettingsFile()
     console.log(settings)

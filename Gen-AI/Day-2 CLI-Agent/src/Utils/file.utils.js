@@ -42,6 +42,9 @@ export async function saveApiKey(apiKey) {
     }))
 }
 
+//**
+ /* Get API key from settings file
+    */
 export async function getApiKey(){
     const settings = await getSettingsFile()
     return settings.apiKey || null
